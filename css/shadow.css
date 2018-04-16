@@ -1,0 +1,44 @@
+h5.sombra {
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+}
+
+h1.sombra {
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+}
+
+p.sombra {
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+}
+
+.sombra-orange {
+    text-shadow: -1px 0 #DA4C00, 1px 0 #DA4C00, 0 1px #DA4C00, 0 -1px #DA4C00;
+    color: #fff;
+}
+
+.sombra-black {
+    text-shadow: -1px 0 #000, 1px 0 #000, 0 1px #000, 0 -1px #000;
+    color: #fff;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 2600px;
+    width: 100%;
+}
+
+.sombra-green {
+    text-shadow: -1px 0 #fff, 1px 0 #fff, 0 1px #fff, 0 -1px #fff;
+}
+
+.seccion {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}

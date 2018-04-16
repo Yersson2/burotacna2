@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buró Tacna</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="css/shadow.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+</head>
+
+<!--BODY-->
+
+<body>
+    <nav class="pink darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <!--a id="logo-container" href="#" class="brand-logo"><img width="200px" height="60px" alt="Buro de Tacna"></a-->
+            <ul class="right hide-on-med-and-down">
+                <li><a class="white-text" href="index.html"><b>Inicio</b></a>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a class='dropdown-button d' href='#' data-activates='dropdown2' data-hover="hover" data-alignment="left">inicio</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">three</a></li>
+                    </ul>
+                    <ul id='dropdown2' class='dropdown-content'>
+                        <li><a href="#!">one</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">three</a></li>
+                    </ul>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#!">one</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">three</a></li>
+                    </ul>
+                </li>
+                <li><a class="white-text" href="socios.html"><b>Buró Tacna</b></a></li>
+                <li><a class="white-text" href="actividades.html"><b>Socios</b></a></li>
+                <li><a class="white-text" href="Circuito Turístico.html"><b>¿Dónde hacer tu evento?</b></a></li>
+                <li><a class="white-text" href="convenciones.html"><b>Convenciones</b></a></li>
+                <li><a class="white-text" href="multimedia.html"><b>Multimedia</b></a></li>
+
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="index.html">¿Por qué Tacna?</a></li>
+                <li><a href="socios.html">Buró Tacna</a></li>
+                <li><a href="actividades.html">Socios</a></li>
+                <li><a href="Circuitos Turísticos">¿Dónde hacer tu evento?</a></li>
+                <li><a href="multimedia">Noticias</a></li>
+                <li><a href="multimedia">Contacto</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="contenedor">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/1.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/2.jpg">
+                    <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/3.jpg">
+                    <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/4.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slider').slider({
+                full_width: true
+            });
+        });
+    </script>
+
+    <!--FOOTER-->
+    <footer class="page-footer  pink darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contáctanos</h5>
+                    <p class="purple-text text-lighten-4">Dirección: Destua 364 Of. 107 </p>
+                    <p class="purple-text text-lighten-4">Teléfono: (51)(52) 242777, Celular: 977-212027</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Correo</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">ogd_turtacna@hotmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Turismo en Tacna</h5>
+                    <ul>
+                        <li><a class="white-text" target="_bank" href="http://turismotacna.com/">Turismo</a></li>
+                        <li><a class="white-text" target="_bank" href="http://hotelesentacna.com/">Hoteles</a></li>
+                        <li><a class="white-text" target="_bank" href="http://restaurantesentacna.com/">Restaurantes</a></li>
+                        <li><a class="white-text" target="_bank" href="http://saludentacna.com/">Salud</a></li>
+                        <li><a class="white-text" target="_bank" href="http://www.agenciasdeviajesentacna.com/">Agencias de viajes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div align="center" class="container">
+                © Copyright Buró de Convenciones de Tacna. Todos los derechos reservados.
+                <a class="brown-text text-lighten-3" taget="_bank" href="http://www.turismotacna.com/"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
