@@ -7,15 +7,17 @@
     <title>Buró Tacna</title>
 
     <!-- CSS  -->
+    <link rel="stylesheet" href="css/nav.css" type="text/css">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="css/shadow.css">
     <link rel="stylesheet" href="css/slider.css">
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/nav.js"></script>
     <script type="text/javascript">
         $(window).load(function() {
             $('.flexslider').flexslider({
@@ -30,49 +32,35 @@
 <!--BODY-->
 
 <body>
-    <nav class="pink darken-4" role="navigation">
-        <div class="nav-wrapper container">
-            <!--a id="logo-container" href="#" class="brand-logo"><img width="200px" height="60px" alt="Buro de Tacna"></a-->
+    <nav>
+        <div class="nav-wrapper pink darken-4">
+            <a class="white-text" href="#!" class="brand-logo left"><b>Concept Nav</b></a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="white-text" href="index.html"><b>Inicio</b></a>
-                    <ul id='dropdown1' class='dropdown-content'>
-                        <li><a class='dropdown-button d' href='#' data-activates='dropdown2' data-hover="hover" data-alignment="left">inicio</a></li>
-                        <li><a href="#!">two</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">three</a></li>
-                    </ul>
-                    <ul id='dropdown2' class='dropdown-content'>
-                        <li><a href="#!">one</a></li>
-                        <li><a href="#!">two</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">three</a></li>
-                    </ul>
-                    <ul id="dropdown1" class="dropdown-content">
-                        <li><a href="#!">one</a></li>
-                        <li><a href="#!">two</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">three</a></li>
-                    </ul>
+                <li><a class="white-text" href="#!"><b>Sass</b></a></li>
+                <li><a class="white-text" href="#!"><b>Components</b></a></li>
+                <!-- Dropdown Trigger -->
+                <li>
+                    <a style="color: white" class="dropdown-button" href="#!" data-activates="dropdown" data-beloworigin="true"><b>Contacts</b><i class="mdi-navigation-arrow-drop-down right"></i></a>
                 </li>
-                <li><a class="white-text" href="socios.html"><b>Buró Tacna</b></a></li>
-                <li><a class="white-text" href="actividades.html"><b>Socios</b></a></li>
-                <li><a class="white-text" href="Circuito Turístico.html"><b>¿Dónde hacer tu evento?</b></a></li>
-                <li><a class="white-text" href="convenciones.html"><b>Convenciones</b></a></li>
-                <li><a class="white-text" href="multimedia.html"><b>Multimedia</b></a></li>
-
             </ul>
-
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="index.html">¿Por qué Tacna?</a></li>
-                <li><a href="socios.html">Buró Tacna</a></li>
-                <li><a href="actividades.html">Socios</a></li>
-                <li><a href="Circuitos Turísticos">¿Dónde hacer tu evento?</a></li>
-                <li><a href="multimedia">Noticias</a></li>
-                <li><a href="multimedia">Contacto</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown" class="dropdown-content collection">
+        <li class="collection-item avatar">
+            <span class="title">Name</span>
+
+        </li>
+        <li class="collection-item avatar">
+            <span class="title">Name</span>
+
+        </li>
+        <li class="collection-item avatar">
+            <span class="title">Name</span>
+
+
+        </li>
+    </ul>
 
     <!-- SLIDER -->
     <div class="contenedor">
